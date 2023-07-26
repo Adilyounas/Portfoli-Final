@@ -47,15 +47,16 @@
 
 .work__button {
   color: var(--text-color);
-  font-size: var(--small-font-size);
+  font-size: 15px;
   display: flex;
   align-items: center;
   column-gap: 0.25rem;
 }
 
 .work__button-icon {
-  font-size: 1rem;
+  font-size: 2rem;
   transition: 0.4s;
+  color: red;
 }
 
 .work__button:hover .work__button-icon {
