@@ -1,5 +1,5 @@
 import React from "react";
-
+import Typewriter from "typewriter-effect";
 const Data = () => {
   return (
     <div className="home__data">
@@ -55,11 +55,18 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">#Web Developer</h3>
+      <h3 className="home__subtitle">#As MERN Stack Developer I Can do</h3>
+      
 
       <p className="home__description">
-        I'm creative, passionate and
-        dedicated to my work.
+      <Typewriter
+            options={{
+              strings: ["Pure Front End Developer", "Pure Back End Developer"],
+              autoStart: true,
+              loop: true,
+              cursor: "",
+            }}
+          />
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello
