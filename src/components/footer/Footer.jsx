@@ -2,7 +2,6 @@ import React from "react";
 import "./footer.css";
 
 const Footer = () => {
- 
   return (
     <footer className="footer" id="footer">
       <div className="footer__container container">
@@ -50,6 +49,14 @@ const Footer = () => {
             <i className="bx bxl-whatsapp contact__card-icon"></i>
           </a>
 
+          <a
+            href="https://www.behance.net/adilyounas2"
+            target="_blank"
+            className="home__social-icon"
+            rel="noreferrer"
+          >
+            <i class="fa-brands uil-behance"></i>
+          </a>
 
           <a
             href="mailto:adildev00@gmail.com"
@@ -59,8 +66,6 @@ const Footer = () => {
           >
             <i className="bx bx-mail-send contact__card-icon"></i>
           </a>
-
-
         </div>
         <span className="footer__copy">
           &#169; Copyright. All rigths reserved
