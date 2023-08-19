@@ -8,7 +8,7 @@ import Work7 from "../../assets/mba chai wala clone.jpg";
 import Work8 from "../../assets/portfoli1.jpg";
 import Work9 from "../../assets/recipe app.jpg";
 import Work10 from "../../assets/vedio hub.jpg";
-import Work11 from "../../assets/MERN.jpg";
+import Work11 from "../../assets/MERN.png";
 
 
 
@@ -89,7 +89,7 @@ export const projectsData = [
     image: Work11,
     title: "Ecommerce",
     category: "MERN",
-    url: "https://www.warriordev.tech/",
+    url: "",
   },
  
 ];
