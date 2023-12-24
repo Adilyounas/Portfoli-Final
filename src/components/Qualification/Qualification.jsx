@@ -45,8 +45,13 @@ const Qualification = () => {
             }
           >
             <div className="qualification__data">
+              <div></div>
               <div>
-                <h3 className="qualification__title">BSIT</h3>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">MSC Social Work</h3>
                 <span className="qualification__subtitle">
                   Punjab University Lahore
                 </span>
@@ -54,28 +59,7 @@ const Qualification = () => {
                   <i className="uil uil-calendar-alt">2018-2022</i>
                 </div>
               </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
             </div>
-
-            {/* <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">Bachelor of arts</h3>
-                <span className="qualification__subtitle">
-                  satellite town GRW
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt">2018-2019</i>
-                </div>
-              </div>
-            </div> */}
 
             <div className="qualification__data">
               <div>
@@ -95,22 +79,6 @@ const Qualification = () => {
               </div>
             </div>
 
-            {/* <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Matriculation</h3>
-                <span className="qualification__subtitle">
-                  Technical High School GRW
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt">2014-2016</i>
-                </div>
-              </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div> */}
-
             <div className="qualification__data">
               <div></div>
               <div>
@@ -128,6 +96,7 @@ const Qualification = () => {
               </div>
             </div>
           </div>
+
           <div
             className={
               toggleState === 2
@@ -136,8 +105,27 @@ const Qualification = () => {
             }
           >
             <div className="qualification__data">
+              <div></div>
               <div>
-                <h3 className="qualification__title">Web developer</h3>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">
+                  1 Year Experience In Local Startup
+                </h3>
+                <span className="qualification__subtitle"></span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt">2022 - Present</i>
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  3 Months InternShip In TecnoSphere
+                </h3>
                 <span className="qualification__subtitle"></span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt">2023 - Present</i>
@@ -146,21 +134,6 @@ const Qualification = () => {
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">Graphics Designer</h3>
-                <span className="qualification__subtitle"></span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt">2022 - Present</i>
-                </div>
               </div>
             </div>
           </div>

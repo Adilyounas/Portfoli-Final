@@ -91,6 +91,13 @@ export const projectsData = [
     category: "MERN",
     url: "",
   },
+  {
+    id: 12,
+    image: Work11,
+    title: "Expense Tracker",
+    category: "MERN",
+    url: "",
+  },
  
 ];
 
