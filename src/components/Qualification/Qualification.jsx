@@ -51,9 +51,9 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">MSC Social Work</h3>
+                <h3 className="qualification__title">BSIT <br /> (Completed 2022)</h3>
                 <span className="qualification__subtitle">
-                  Punjab University Lahore
+                   University of Punjab
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt">2018-2022</i>
@@ -67,7 +67,7 @@ const Qualification = () => {
                   Intermediate of Science
                 </h3>
                 <span className="qualification__subtitle">
-                  satellite town GRW
+                  satellite town 
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt">2016-2018</i>
@@ -88,7 +88,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Matriculation</h3>
                 <span className="qualification__subtitle">
-                  Technical High School GRW
+                  Technical High School 
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt">2014-2016</i>
